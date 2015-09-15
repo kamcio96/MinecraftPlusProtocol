@@ -1,7 +1,7 @@
 # MinecraftPlusProtocol
 
 ####What is plus protocol?
-It is additional packets for communicate ( client <-> server or client <-> proxy <-> server)
+It is additional way for communicate ( client <-> server or client <-> proxy <-> server)
 
 ####How it works?
 The most important thing is the client (or proxy) has to send "+" at end of host field in [Handshake](http://wiki.vg/Protocol#Handshake) packet.
