@@ -13,10 +13,10 @@ Server without plus protocol:
 Server with plus protocol:
  * Server knows that he can send custom packets to client.
  * Wait for player Login packet
- * Response with special packet (someting like IHasPlusProtocolToo, it could contains some data about server)
- * Now both sides know about plus protocol
+ * Response with special packet (someting like IHasPlusProtocolToo, it could contains some data about the server)
+ * Now both sides know about the plus protocol
 
 I think one addional packet like [Plugin_Message](http://wiki.vg/Protocol#Plugin_Message) could be enought for all things :relaxed: (May only increase max size of packet)
 
 Any question or suggestion?
-Just create issue :wink:
+Just create an issue :wink:
